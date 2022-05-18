@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-stuff {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-stuff strong {
+    margin: 12px;
+}
+
+.header-stuff input {
+    text-align: center;
+}
+
+.pokemon-card {
+    display: flex;
+    height: 10em;
+    width: 20em;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: 16px;
+}
+
+.pokemon-card-left {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pokemon-card-name {
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    font-size: 1.6em;
+}
+
+.pokemon-card-type-bubble {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 40px;
+    padding: 4px 16px 4px 16px;
+    margin: 6px 0 6px 0;
+    text-align: center;
+}
+
+.pokemon-card-right {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pokemon-card-id {
+    text-align: center;
+    color: lightgray;
+}
+
+.pokemon-card-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.text-red {
+    color: red;
+}
+
+/*Color Types*/
+
+.gray {
+    background-color: #a8a878;
+}
+
+.red {
+    background-color: #f08030;
+}
+
+.blue {
+    background-color: #6890f0;
+}
+
+.green {
+    background-color: #78c850;
+}
+
+.yellow {
+    background-color: #f8d030;
+}
+
+.light-blue {
+    background-color: #98d8d8;
+}
+
+.dark-red {
+    background-color: #c03128;
+}
+
+.pink {
+    background-color: #a040a0;
+}
+
+.dark-yellow {
+    background-color: #e0c068;
+}
+
+.light-pink {
+    background-color: #a890f0;
+}
+
+.dark-pink {
+    background-color: #f85888;
+}
+
+.yellow-green {
+    background-color: #a8b820;
+}
+
+.light-brown {
+    background-color: #b8a037;
+}
+
+.dark-violet {
+    background-color: #705898;
+}
+
+.brown {
+    background-color: #705848;
+}
+
+.violet {
+    background-color: #7038f8;
+}
+
+.light-gray {
+    background-color: #b8b8d0;
+}
+
+.bright-pink {
+    background-color: #f0b6bd;
+}
